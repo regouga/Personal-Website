@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Miguel Regouga</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="jquery-3.2.1.js"></script>
+  		<script src="music.js"></script>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>Miguel Hugo Regouga</h1>
+							<h4><p><b>Information Systems and Computer Engineering student</b><br><a href="https://tecnico.ulisboa.pt/en/" target="_blank">Instituto Superior Técnico&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;Alameda Campus</a></p>
+							<b>Social Media Manager</b>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<a href="http://sinfo.org" target="_blank">SINFO</a><br>
+							<b>Writer</b>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<a href="http://kioskedamaca.com" target="_blank">Kioske da Maçã</a><br>
+							</h4>
+							
+							<div class="inner">
+							<ul class="icons">
+								<li><a href="http://twitter.com/regouga" class="icon style2 fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+								<li><a href="http://facebook.com/mregouga" class="icon style2 fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+								<li><a href="http://instagram.com/regouga" class="icon style2 fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+								<li><a href="http://snapchat.com/add/regouga" class="icon style2 fa-snapchat-ghost" target="_blank"><span class="label">LinkedIn</span></a></li>
+								<li><a href="http://last.fm/user/regouga" class="icon style2 fa-lastfm" target="_blank"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://open.spotify.com/user/1167301620" class="icon style2 fa-spotify" target="_blank"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.linkedin.com/in/regouga/" class="icon style2 fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/regouga" class="icon style2 fa-github" target="_blank"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:miguel.regouga@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							</div>
+							
+							<!--<ul class="actions vertical">
+								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
+							</ul>-->
+							<h5><p>♫ <span class="listening-to"></span>
+														<!-- Display the countdown timer in an element -->
+							<br><span id="demo"></span></p></h5>
+
+							<script>
+							// Set the date we're counting down to
+							var countDownDate = new Date("Mar 12, 2017 19:26:00").getTime();
+
+							// Update the count down every 1 second
+							var x = setInterval(function() {
+
+							  // Get todays date and time
+							  var now = new Date().getTime();
+
+							  // Find the distance between now an the count down date
+							  var distance = now - countDownDate;
+
+							  // Time calculations for days, hours, minutes and seconds
+							  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+							  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+							  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+							  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+							  // Display the result in the element with id="demo"
+							  
+							  if (minutes == 1) {
+								  document.getElementById("demo").innerHTML = "Online " + days + " days, " + hours + " hours and "
+								  + minutes + " minute ago";
+								}
+								if (hours == 1) {
+								  document.getElementById("demo").innerHTML = "Online " + days + " days, " + hours + " hour and "
+								  + minutes + " minutes ago";
+								}
+								else {
+								  document.getElementById("demo").innerHTML = "Online " + days + " days, " + hours + " hours and "
+								  + minutes + " minutes ago";
+								}
+							}, 1000);
+							</script>
+
+						</div>
+						<div class="image">
+							<img src="images/bannernew.jpg" alt="" />
+						</div>
+					</section>
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
