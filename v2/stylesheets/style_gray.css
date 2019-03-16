@@ -518,7 +518,7 @@ html .btn, body .btn {
 #home #menuToggle .toggle-normal i {
     font-size: 31px;
     padding: 4px !important;
-    color: #F44336 !important; }
+    color: black!important; }
 #home #menuToggle .toggle-normal .top-bar {
     position: absolute;
     right: 0;
@@ -940,7 +940,7 @@ html .btn, body .btn {
         /*vertical line for experience in min width 768 */
         left: 50%;
         margin-left: -2px;
-        height: 69.1%;
+        height: 85%;
         opacity: 0.4;
         background: #616161; }
 
