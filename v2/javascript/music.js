@@ -4,13 +4,17 @@ $(document).ready(function() {
 
         var html = ''; 
         var counter = 1; 
+        var image = '';
         $.each(data.recenttracks.track, function(i, item) {
             if(counter == 1) {
-                html += 'Just listened to <span><a href="' + item.url + '" target="_blank">' + item.name + '</a> by ' + item.artist['#text'] + '</span>';
+                html += '<span><h6><a href="' + item.url + '" target="_blank">' + item.name + '</a></h6>' + item.artist['#text'] + '</span>';
+                image += '<img src="' + item.image[3]['#text'] + '" class="img-responsive center-block">';
             } 
             counter++ 
         }); 
-        $('.listening-to').append(html); 
+        $('.listening-to').append(html);
+        $('.albumart').append(image);
+
     });
 
 }); 
