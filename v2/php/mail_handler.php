@@ -2,7 +2,7 @@
 
 /* Configuration */
 /*your web-mail*/
-$mailto  = 'your webmail here';
+$mailto  = 'regouga@icloud.com';
 
 
 $name     	= strip_tags($_POST['first_name']);
