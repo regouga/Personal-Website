@@ -90,6 +90,8 @@
                 <a href="#pricing-table"><i class="title-icon fas fa-money"></i>Pricing</a>
                 <a href="#blog"><i class="title-icon fas fa-pencil-square"></i>Blog</a>
                 <a href="#contact"><i class="title-icon fas fa-envelope"></i>Contact</a>
+
+                <div align=center><img src='https://www.counter12.com/img-9acAxY64y5WZ73YZ-57.gif' border='0' alt=''></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=9acAxY64y5WZ73YZ'></script></div>
             </div>
 
             <!-- MENU BUTTON -->
@@ -252,9 +254,9 @@
                         <div class="card-content">
                             <p>
                                 <h7 class="section-title text-center"><i class="title-icon fab fa-twitter"></i>Lastest
-                                    Tweets</h7><br>
+                                    Tweets</h7><br><br>
                                 <a class="twitter-timeline" href="https://twitter.com/regouga" data-width="400"
-                                    data-height="400" data-chrome="nofooter noborders transparent noheader"></a>
+                                    data-height="381" data-chrome="nofooter noborders transparent noheader"></a>
                                 <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             </p>
                         </div>
@@ -1109,11 +1111,43 @@
     <footer>
         <div class="container">
             <!--FOOTER DETAILS-->
-            <p class="text-center">
-                © Material CV. All right reserved by
-                <a href="http://trimatrixlab.com/" target="_blank">
-                    <strong>Trimatrixlab</strong>
-                </a>
+            <p class="text-center"><br>
+                    © 2019 Miguel Regouga. All rights reserved.
+                    <br>
+                    <span id="demo"></span>
+                    <script>
+							var countDownDate = new Date("Mar 12, 2017 19:26:00").getTime();
+
+							var x = setInterval(function() {
+
+							  var now = new Date().getTime();
+
+							  var distance = now - countDownDate;
+
+							  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+							  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+							  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+							  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+							  
+							  if (minutes == 1) {
+								  document.getElementById("demo").innerHTML = "Website online " + days + " days, " + hours + " hours and "
+								  + minutes + " minute ago";
+								}
+								if (hours == 1) {
+								  document.getElementById("demo").innerHTML = "Website online " + days + " days, " + hours + " hour and "
+								  + minutes + " minutes ago";
+								}
+								else {
+								  document.getElementById("demo").innerHTML = "Website online " + days + " days, " + hours + " hours and "
+								  + minutes + " minutes ago";
+								}
+							}, 1000);
+                            </script>
+
+
+                
+
             </p>
         </div>
     </footer>
