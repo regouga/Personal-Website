@@ -171,11 +171,11 @@ ul li {
 }
 
 .red {
-    background-color: #F44336!important
+    background-color: #616161!important
 }
 
 .red-text {
-    color: #F44336!important
+    color: #616161!important
 }
 
 .red.darken-1 {
@@ -7768,8 +7768,8 @@ input[type=url].invalid,
 input[type=url]:focus.invalid,
 textarea.materialize-textarea.invalid,
 textarea.materialize-textarea:focus.invalid {
-    border-bottom: 1px solid #F44336;
-    box-shadow: 0 1px 0 0 #F44336
+    border-bottom: 1px solid #616161;
+    box-shadow: 0 1px 0 0 #616161
 }
 
 input:not([type]).invalid+label:after,
@@ -7797,7 +7797,7 @@ input[type=url]:focus.invalid+label:after,
 textarea.materialize-textarea.invalid+label:after,
 textarea.materialize-textarea:focus.invalid+label:after {
     content: attr(data-error);
-    color: #F44336;
+    color: #616161;
     opacity: 1
 }
 

@@ -462,7 +462,7 @@ html .btn, body .btn {
     /*menu logo*/
     height: 200px;
     margin-top: -14px;
-    background: #616161; }
+    background: #0A0A0A; }
 #home .menu .logo-flat img {
     /*logo image*/
     width: 100%;
@@ -550,7 +550,6 @@ html .btn, body .btn {
     display: block;
     width: 100%;
     height: 370px;
-    background: url("../images/background.png") no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed; }
@@ -568,7 +567,7 @@ html .btn, body .btn {
     height: 400px;
     overflow: hidden;
     z-index: 1;
-    background: #616161;
+    background: #0A0A0A;
     margin: -20px 3px 0 0; }
 #home .header-background #v-card-holder #v-card .info-headings {
     /*basic infos*/
@@ -578,7 +577,7 @@ html .btn, body .btn {
     display: block;
     width: 100%;
     font-weight: 900;
-    color: #fff;
+    color: #e7e7e7;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29); }
 #home .header-background #v-card-holder #v-card .info-headings h6 {
     /*details*/
@@ -588,7 +587,7 @@ html .btn, body .btn {
     margin-top: -10px;
     margin-bottom: 30px;
     font-size: 1.2em;
-    color: #fff;
+    color: #e7e7e7;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29); }
 #home .header-background #v-card-holder #v-card .infos {
     /*detailed infos*/
@@ -600,7 +599,7 @@ html .btn, body .btn {
     /*info title*/
     display: block;
     float: left;
-    color: #fff;
+    color: #e7e7e7;
     line-height: 26px; }
 #home .header-background #v-card-holder #v-card .infos .profile-list .title i {
     /*matching icon*/
@@ -615,7 +614,7 @@ html .btn, body .btn {
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
-    color: #fff; }
+    color: #e7e7e7; }
 #home .header-background #v-card-holder #v-card .links {
     /*social links*/
     max-width: 500px;
@@ -662,7 +661,7 @@ html .btn, body .btn {
     top: 0;
     border-style: dashed;
     border-width: 400px 0 0 100px;
-    border-color: transparent transparent transparent #616161; }
+    border-color: transparent transparent transparent #0A0A0A; }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     #home .header-background #v-card-holder #v-card #profile .slant {
         /*slant properties for ie*/
@@ -672,7 +671,7 @@ html .btn, body .btn {
         top: 0;
         border-style: solid;
         border-width: 400px 0 0 100px;
-        border-color: transparent transparent transparent #616161; } }
+        border-color: transparent transparent transparent #0A0A0A; } }
 @-moz-document url-prefix() {
     #home .header-background #v-card-holder #v-card #profile .slant {
         /*for firefox*/
@@ -682,7 +681,7 @@ html .btn, body .btn {
         top: 0;
         border-style: solid;
         border-width: 400px 0 0 100px;
-        border-color: transparent transparent transparent #616161; } }
+        border-color: transparent transparent transparent #0A0A0A; } }
 @supports (-ms-accelerator: true) {
     #home .header-background #v-card-holder #v-card #profile .slant {
         /*for edge*/
@@ -692,11 +691,11 @@ html .btn, body .btn {
         top: 0;
         border-style: solid;
         border-width: 400px 0 0 100px;
-        border-color: transparent transparent transparent #616161; } }
+        border-color: transparent transparent transparent #0A0A0A; } }
 #home .header-background #v-card-holder #v-card #profile .add-btn {
     /*plus button*/
     position: absolute;
-    background-color: #F44336;
+    background-color: #000;
     top: 20%;
     right: 86%;
     overflow: hidden; }
