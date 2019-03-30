@@ -931,7 +931,7 @@ html .btn, body .btn {
         /*vertical line for education in in min width 768 */
         left: 50%;
         margin-left: -2px;
-        height: 65%;
+        height: 70%;
         opacity: 0.4;
         background: #616161; }
 
@@ -939,7 +939,7 @@ html .btn, body .btn {
         /*vertical line for experience in min width 768 */
         left: 50%;
         margin-left: -2px;
-        height: 85%;
+        height: 88%;
         opacity: 0.4;
         background: #616161; }
 
