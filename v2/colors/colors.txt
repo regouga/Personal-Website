@@ -17,7 +17,7 @@ $accent-color: #E61F63;
 
 /*gray*/
 $primary-color: #616161;
-$accent-color: #616161;
+$accent-color: #F44336;
 
 /*teal*/
 $primary-color: #038175;
